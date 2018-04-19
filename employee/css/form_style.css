@@ -1,0 +1,19 @@
+body {
+    background-color: #eee;
+}
+
+*[role="form"] {
+    max-width: 1000px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 1em;
+}
+
+*[role="form"] h2 {
+    margin-left: 10em;
+    margin-bottom: 1em;
+}
+.has-error{
+    color: red;
+}
