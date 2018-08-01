@@ -9,7 +9,7 @@
 </head>
 <body ng-app="myapp">
     <div class="container" ng-controller="mycntrl">
-        <form class="form-horizontal" role="form" name="register" ng-submit="insertData()" method="POST">
+        <form class="form-horizontal" role="form" name="register" ng-submit="insertData()" method="POST" novalidate>
             <h2>JD Interview Application Form</h2>
             <div class="form-group">
                 <label class="col-sm-4 control-label">Employee Name
